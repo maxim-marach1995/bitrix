@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "local/app/",
+            "Vendor\\Namespace\\": "local/"
+        }
+    },
+    "require": {
+        "bramus/router": "~1.6",
+        "larapack/dd": "^1.1"
+    }
+}
